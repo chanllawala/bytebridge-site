@@ -1,0 +1,6 @@
+/* ByteBridge App Styles */
+/* Using Tailwind CSS for all styling */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
