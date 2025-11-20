@@ -114,14 +114,9 @@ const About = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="rounded-2xl border border-bytebridge-cyan/20 bg-gradient-to-br from-bytebridge-dark to-bytebridge-black p-6 flex flex-col md:flex-row gap-5 items-center"
+              className="rounded-2xl border border-bytebridge-cyan/20 bg-gradient-to-br from-bytebridge-dark to-bytebridge-black p-6"
             >
-              <img
-                src="/src/assets/Bytebridge website logo.png"
-                alt="ByteBridge duo"
-                className="h-24 w-24 rounded-full border border-bytebridge-cyan/30 object-contain bg-white p-2"
-              />
-              <div>
+              <div className="w-full">
                 <p className="text-sm uppercase text-bytebridge-cyan/80">Two friends, one mission</p>
                 <h3 className="text-2xl font-semibold text-white">Turning local dreams into digital launches</h3>
                 <p className="text-sm text-gray-300 leading-relaxed mt-2">

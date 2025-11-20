@@ -55,20 +55,6 @@ const Hero = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="relative max-w-5xl mx-auto text-center">
-          {/* Profile Image */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="mb-8 mx-auto w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-bytebridge-cyan/20 shadow-lg"
-          >
-            <img
-              src="/assets/bytebridge-logo.png"
-              alt="ByteBridge Duo"
-              className="w-full h-full object-cover"
-            />
-          </motion.div>
-          
           {/* Subtle background logo behind headline */}
           <img
             src={logoImg}
