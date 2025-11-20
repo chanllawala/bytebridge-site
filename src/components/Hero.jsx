@@ -1,3 +1,4 @@
+// ByteBridge Hero Component - Updated for deployment
 import { motion } from 'framer-motion';
 import { useMemo } from 'react';
 // Using public folder for static assets in production
