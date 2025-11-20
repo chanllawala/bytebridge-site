@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useMemo } from 'react';
-import logoImg from '../assets/Bytebridge website logo.png';
+// Using public folder for static assets in production
+const logoImg = '/assets/bytebridge-logo.png';
 
 const Hero = () => {
   // Generate stable particle positions
