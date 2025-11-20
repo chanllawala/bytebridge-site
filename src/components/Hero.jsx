@@ -63,7 +63,7 @@ const Hero = () => {
             className="mb-8 mx-auto w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-bytebridge-cyan/20 shadow-lg"
           >
             <img
-              src="/assets/Bytebridge website logo.png"
+              src="/assets/bytebridge-logo.png"
               alt="ByteBridge Duo"
               className="w-full h-full object-cover"
             />
